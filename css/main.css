@@ -1,0 +1,82 @@
+/* Tu CSS va aqui */
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Open Sans"
+}
+img{
+	width: 50%;
+	height: auto;
+}
+a{
+	text-decoration: none;
+	color: black;
+	float: right;
+	font-size: 1em;
+	margin: 4% 3%;
+}
+section{
+	background-color: gray;
+}
+h1{
+	color: white;
+	font-size: 4em;
+	margin: 10% 0% 2.5% 0%;
+}
+p{
+	color: white;
+	text-align: justify;
+	margin: 5% 10% 10% 0%;
+}
+
+.formulario{
+	margin: 20% 0 5% 0;
+	background-color: #9A9A9A;
+	display: inline-block;
+	float: right;
+	border-radius: 5%;
+	padding: 5%;
+}
+h2{
+	color: white;
+	text-align: center;
+	margin: 5%;
+}
+input{
+
+	width: 100%;
+	margin: 2% 0%;
+	padding: 2%;
+}
+.formulario a{
+	width: 100%;
+	color: white;
+	background-color: #3EB0F7;
+	display: inline;
+	float: right;
+	margin: 2% 0;
+	padding: 2%;
+	text-align: center;
+}
+footer p{
+	color: black;
+	margin: 1% 0;
+}
+span{
+	color: blue;
+}
+
+/*****REPONSIVE******/
+@media (max-width: 535px) {
+	h1, .formulario{
+		margin:2% 1%;
+	}
+	p{
+		margin:5% 1%;
+	}
+	img{
+		margin: 3% 0 0 0;
+	}
+}
+
